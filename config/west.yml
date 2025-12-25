@@ -6,10 +6,15 @@ manifest:
       url-base: https://github.com/urob
     - name: infused-kim
       url-base: https://github.com/infused-kim
+    - name: joelspadin
+      url-base: https://github.com/joelspadin
   projects:
     - name: zmk
       remote: infused-kim
       revision: urob/mouse
       import: app/west.yml
+    - name: zmk-locales
+      remote: joelspadin
+      revision: main
   self:
     path: config
