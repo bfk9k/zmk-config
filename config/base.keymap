@@ -23,6 +23,8 @@
 #include "includes/behaviours_homerow_mods.dtsi"
 #include "includes/behaviours_mod_morph.dtsi"
 #include "includes/behaviours_other.dtsi"
+
+#include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/international_chars/german.dtsi"
 
 / {
