@@ -24,6 +24,7 @@
 #include "includes/behaviours_mod_morph.dtsi"
 #include "includes/behaviours_other.dtsi"
 
+#define HOST_OS 2  // set to 1 for Linux, default is 0 (Windows), set to 2 for macOS/Windows-Alt-Codes
 #include "../zmk-nodefree-config/helper.h"
 #include "../zmk-nodefree-config/international_chars/german.dtsi"
 
