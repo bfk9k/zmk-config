@@ -24,9 +24,8 @@
 #include "includes/behaviours_mod_morph.dtsi"
 #include "includes/behaviours_other.dtsi"
 
-#define HOST_OS 2  // set to 1 for Linux, default is 0 (Windows), set to 2 for macOS/Windows-Alt-Codes
-#include "../zmk-nodefree-config/helper.h"
-#include "../zmk-nodefree-config/international_chars/german.dtsi"
+// ZMK-locales includes
+#include <locale/keys_de.h>
 
 / {
 
@@ -39,9 +38,9 @@
       display-name = "Base";
       bindings = <
 // ╭────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────┬────────────────────────╮    ╭────────────────────────┬────────────────────────┬────────────────────────┬───────────────────────┬────────────────────────┬────────────────────────╮
-     &kp ESC                  &kp Q                    &kp W                    &kp E                    &kp R                    &kp T                         &kp Y                    &kp U                    &kp I                    &kp O                   &kp P                    &kp BACKSLASH
+     &kp ESC                  &kp Q                    &kp W                    &kp E                    &kp R                    &kp T                         &kp Y                    &kp U                    &kp I                    &kp O                   &kp P                    &kp DE_O_UMLAUT
 // ├────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤    ├────────────────────────┼────────────────────────┼────────────────────────┼───────────────────────┼────────────────────────┼────────────────────────┤
-     &mm_bspc_del             &hm_l LGUI A             &hm_l LALT S             &hm_l LCTRL D            &hm_shift_l LSHFT F      &kp G                         &kp H                    &hm_shift_r RSHFT J      &hm_r RCTRL K            &hm_r RALT L            &hm_r RGUI SEMI          &de_ae
+     &mm_bspc_del             &hm_l LGUI A             &hm_l LALT S             &hm_l LCTRL D            &hm_shift_l LSHFT F      &kp G                         &kp H                    &hm_shift_r RSHFT J      &hm_r RCTRL K            &hm_r RALT L            &hm_r RGUI DE_O_UMLAUT          &kp DE_O_UMLAUT
 // ├────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┼────────────────────────┤    ├────────────────────────┼────────────────────────┼────────────────────────┼───────────────────────┼────────────────────────┼────────────────────────┤
      &td_shift_l              &kp Z                    &kp X                    &kp C                    &kp V                    &kp B                         &kp N                    &kp M                    &kp COMMA                &kp DOT                 &kp SLASH                &kp UNDERSCORE
 // ╰────────────────────────┴────────────────────────┴────────────────────────┴────────────────────────┼────────────────────────┼────────────────────────┤    ├────────────────────────┼────────────────────────┼────────────────────────┼───────────────────────┼────────────────────────┼────────────────────────╯
