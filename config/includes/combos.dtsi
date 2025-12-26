@@ -14,6 +14,14 @@
     //  bindings = <&kp ESC>;
     // };
 
+    combo_sharp_s {
+      timeout-ms = <COMBO_TERM_SLOW>;
+      require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+      key-positions = <RT4 RT5>;
+      layers = <BASE>;
+      bindings = <&kp DE_SZ>;
+    };
+
     combo_bracket_round_l {
       timeout-ms = <COMBO_TERM_SLOW>;
       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
