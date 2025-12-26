@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/infused-kim
     - name: joelspadin
       url-base: https://github.com/joelspadin
+    - name: dsifry #bongo cat
+      url-base: https://github.com/dsifry
   projects:
     - name: zmk
       remote: infused-kim
@@ -15,6 +17,9 @@ manifest:
       import: app/west.yml
     - name: zmk-locales
       remote: joelspadin
+      revision: main
+    - name: nice-view-mod #bongo cat
+      remote: dsifry
       revision: main
   self:
     path: config
