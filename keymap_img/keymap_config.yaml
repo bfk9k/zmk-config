@@ -185,7 +185,7 @@ parse_config:
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
     '&caps_word': '⇪'
-    '&td_shift_l': {t: '⇧', s: 'Caps Lock'}
+    '&td_shift_l': {t: '⇧', s: '⇪'}
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
     '&td_bt_clear': 'BT CLR'
@@ -211,7 +211,6 @@ parse_config:
     DE_ACUTE: '´'
     DE_GRAVE: '`'
     DE_SECT: '§'
-    CAPSLOCK: '⇪'
     BSPC: '⌫'
     DEL: '⌦'
     SPACE: ⎵
