@@ -201,43 +201,74 @@ parse_config:
     '&trans': {t: ' '}
   skip_binding_parsing: false
   zmk_keycode_map:
+    DE_O_UMLAUT: 'Ö' 
+    DE_A_UMLAUT: 'Ä'
+    DE_U_UMLAUT: 'Ü'
+    DE_SZ: 'ß'
+    DE_Z: 'Z'
+    DE_Y: 'Y'
+    DE_DEG: '°'
+    DE_ACUTE: '´'
+    DE_GRAVE: '`'
+    DE_SECT: '§'
+    CAPSLOCK: '⇪'
     BSPC: '⌫'
     DEL: '⌦'
+    SPACE: ⎵
     AMPERSAND: '&'
     AMPS: '&'
+    DE_AMPS: '&'
     APOS: .
     APOSTROPHE: <
     ASTERISK: '*'
     ASTRK: '*'
+    DE_ASTRK: '*'
     AT: '@'
+    DE_AT: '@'
     AT_SIGN: '@'
     BACKSLASH: {t: '\', s: '|'}
     BSLH: \
+    DE_BSLH: \
     CARET: ^
+    DE_CARET: ^
     COLON: ':'
     COMMA: {t: ',', s: '<'}
+    DE_COMMA: {t: ',', s: ';'}
     DLLR: $
+    DE_DLLR: $
     DOLLAR: $
     DOT: {t: '.', s: '>'}
+    DE_DOT: {t: '.', s: ':'}
     DOUBLE_QUOTES: '"'
     DQT: '"'
+    DE_DQT: '"'
+    DE_EURO: '€'
     EQUAL: {t: '=', s: '+'}
+    DE_EQUAL: '='
     EXCL: '!'
+    DE_EXCL: '!'
     EXCLAMATION: '!'
     FSLH: /
+    DE_FSLH: /
     GRAVE: {t: '`', s: '~'}
     GREATER_THAN: '>'
     GT: '>'
+    DE_GT: '>'
     HASH: '#'
     LBKT: {t: '[', s: '{'}
+    DE_LBKT: '['
     LBRC: '{'
+    DE_LBRC: '{'
     LEFT_BRACE: '{'
     LEFT_BRACKET: '['
     LEFT_PARENTHESIS: (
     LESS_THAN: <
     LPAR: (
+    DE_LPAR: (
     LT: <
+    DE_LT: <
     MINUS: {t: '-', s: '_'}
+    DE_MINUS: {t: '-', s: '_'}
     NON_US_BACKSLASH: \
     NON_US_BSLH: '|'
     NON_US_HASH: '#'
@@ -245,26 +276,36 @@ parse_config:
     PERCENT: '%'
     PERIOD: .
     PIPE: '|'
+    DE_PIPE: '|'
     PIPE2: '|'
     PLUS: +
+    DE_PLUS: +
     POUND: '#'
+    DE_POUND: '#'
     PRCNT: '%'
+    DE_PRCNT: '%'
     QMARK: '?'
+    DE_QMARK: '?'
     QUESTION: '?'
     RBKT: {t: ']', s: '}'}
+    DE_RBKT: ']'
     RBRC: '}'
+    DE_RBRC: '}'
     RIGHT_BRACE: '}'
     RIGHT_BRACKET: ']'
     RIGHT_PARENTHESIS: )
     RPAR: )
+    DE_RPAR: )
     SEMI: {t: ';', s: ':'}
     SEMICOLON:  {t: ';', s: ':'}
     SINGLE_QUOTE:  {t: '''', s: '"'}
     SLASH: {t: '/', s: '?'}
     SLASH: {t: '/', s: '?'}
     SQT: ''''
+    DE_SQT: ''''
     STAR: '*'
     TILDE: '~'
+    DE_TILDE: '~'
     TILDE2: '~'
     UNDER: _
     UNDERSCORE: _
@@ -290,9 +331,12 @@ parse_config:
     DOWN: ↓
     TAB: ↹
     RETURN: '⏎'
+    RET: '⏎'
     ESCAPE: '⎋'
     C_REWIND: '⏮'
+    C_PREV: '⏮'
     C_FAST_FORWARD: '⏭'
+    C_NEXT: '⏭'
     C_PAUSE: '⏯'
     C_MUTE: "VOL\nMUTE"
     C_VOLUME_DOWN: "VOL\nDOWN"
