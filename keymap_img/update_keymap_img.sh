@@ -10,4 +10,4 @@ keymap -c keymap_config.yaml parse -c 12 -z ../config/corne.keymap > keymap.yaml
 # ./keymap_img_adjuster.py keymap.yaml
 
 echo '\n\nDrawing keymap...'
-keymap -c keymap_config.yaml draw --qmk-keyboard corne_rotated --qmk-layout LAYOUT_split_3x6_3 keymap.yaml -s Base Sym Nav NumFn BT > keymap.svg
+keymap -c keymap_config.yaml draw --qmk-keyboard corne_rotated --qmk-layout LAYOUT_split_3x6_3 keymap.yaml -s Base Sym NumNav BtFn > keymap.svg
